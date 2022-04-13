@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" 
+          creationtoolversion="4.2" 
+          datatype="unknown" segtype="sentence" 
+          adminlang="en-US" srclang="en" o-tmf="TMX">
+    <note>
+      All user event texts must use the pre-defined User/EventLog namespace
+    </note>
+    <prop type="x-BR-TS:Namespace">User/EventLog</prop>
+  </header>
+  <body>
+    <tu tuid="536870912">
+      <tuv xml:lang="en">
+        <seg>Example informational user message. For customer events bit 3 must be always set in the event id</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Beispiel für benutzerdefinierte Informationsnachricht. Bei benutzerdefinierten Events muss Bit 3 immer gesetzt sein.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
